@@ -1,0 +1,42 @@
+#portfolio{
+    background: #9dc88dca;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #9dc88d8d;
+    color: #f1b24a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.mix:hover .circle {
+    transition: all 0.4s;
+    opacity: 1;
+}
+
+.circle:hover {
+    background: #164a41;
+    color: #f1b24a;
+    transition: all 0.4s;
+}
+
+.filter {
+    text-align: center;
+    background: #f1b14aef;
+    & .btn{
+        background: transparent;
+        font-size: x-large;
+    }
+
+}

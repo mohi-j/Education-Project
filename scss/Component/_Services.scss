@@ -1,0 +1,20 @@
+
+#services {
+  & .header {
+    text-align: center;
+  }
+  & .fa-solid {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: #f1b24a;
+    & h4 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    & .container .row{
+      margin: 0 0 30px 0;
+    }
+  }
+}

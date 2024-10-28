@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+  background-color: rgba(36, 36, 36, 0.7);
+}
+.container-fluid {
+  width: 88%;
+  margin: auto;
+  & .navbar-brand {
+    margin-right: 0;
+  }
+  & .fa-hamburger {
+    color: #f1b24a;
+    font-size: xxx-large;
+    &:hover {
+      outline: none;
+      outline-color: transparent;
+      border: none;
+      border-style: none;
+    }
+  }
+}
+
+.navbar-nav {
+  transition-duration: 0.4s;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: #f1b24a;
+    font-weight: bold;
+  }
+}
+form .form-control {
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+}

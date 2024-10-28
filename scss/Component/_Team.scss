@@ -1,0 +1,49 @@
+#team .container-fluid {
+  padding: 50px;
+  width: 100%;
+}
+
+#team .row .card {
+  position: relative;
+}
+
+#team .row .card :hover {
+  transform: translateY(-5px);
+  border-color: #f1b24a;
+}
+
+#team .row .card .card-body {
+  position: absolute;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #9dc88d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s;
+  width: 100%;
+  padding: 20px;
+}
+
+#team .row .card:hover .card-body {
+  opacity: 1;
+}
+
+#team .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#team .card {
+  margin: 10px;
+  max-width: 300px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+#team .card img {
+  border-radius: 10px;
+}

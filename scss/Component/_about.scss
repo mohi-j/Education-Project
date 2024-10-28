@@ -1,0 +1,43 @@
+.container {
+  width: 90%;
+}
+.background-image {
+  background-image: url(/root/images/about/world.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background: rgba(142, 140, 140, 0.7);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+#about .header {
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  &.card {
+    border-radius: 5px;
+    & .card-body {
+      justify-content: center;
+    }
+    & .card-title {
+      text-align: center;
+      margin: 1rem;
+      padding-bottom: 20px;
+      font-weight: bold;
+      font-size: x-large;
+      & p {
+        color: #164a41;
+        text-align: justify;
+        font-size: 14px;
+      }
+    }
+  }
+}

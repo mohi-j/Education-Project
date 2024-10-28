@@ -1,0 +1,25 @@
+#stats {
+  background-image: url(/root/images/other/stats.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+
+  &::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left:0;
+    right: 0;
+  }
+  & .counter {
+    font-size: 56px;
+    font-weight: bold;
+    color: #f1a24b;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "B Titr";
+  }
+}
